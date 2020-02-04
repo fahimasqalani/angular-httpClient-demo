@@ -1,0 +1,6 @@
+<div *ngFor="let article of articles">
+  <h2>{{article.title}}</h2>
+<p><mark>{{article.description}}</mark></p>
+    <img [src]="article.urlToImage">
+    <p><a href="{{article.url}}">Read full article</a></p>
+</div>
